@@ -1,0 +1,87 @@
+aid: rookout
+name: Rookout
+description: >-
+  Rookout is a live application debugging platform founded in 2017 in Tel Aviv,
+  Israel that lets developers set non-breaking breakpoints in running
+  production, staging, and development applications to capture full-stack debug
+  data — variables, stack traces, logs, and metrics — without redeploying,
+  restarting, or stopping services. Rookout pioneered the "live debugger"
+  category for cloud-native and Kubernetes-hosted applications and shipped
+  language agents/SDKs for Python, Java/JVM, Node.js, .NET, Go, and Ruby that
+  attach to running processes and stream snapshots back to the Rookout web IDE
+  or developer's IDE. Dynatrace announced its acquisition of Rookout on
+  July 31, 2023 and closed the deal in Q2 of Dynatrace's fiscal year ending
+  September 30, 2023. The standalone Rookout product has since been folded
+  into the Dynatrace platform as the Dynatrace Live Debugger (and Live
+  Logger), and the rookout.com and docs.rookout.com domains now redirect to
+  dynatrace.com. There is no public REST API, OpenAPI specification, webhook
+  catalog, or CLI for Rookout — the developer surface consists entirely of
+  language agents, deployment integration examples, IDE extensions, and the
+  Explorook desktop helper that exposes local source folders to the Rookout
+  web debugger. The Rookout GitHub organization remains public and continues
+  to maintain those agents, tutorials, and integration samples under
+  Apache-2.0.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Live Debugging
+  - Production Debugging
+  - Application Debugging
+  - Observability
+  - Developer Tools
+  - Non-Breaking Breakpoints
+  - Cloud Native
+  - Kubernetes
+  - Dynatrace
+  - APM
+url: https://raw.githubusercontent.com/api-evangelist/rookout/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.dynatrace.com/solutions/observability-for-developers/
+  - type: Product
+    url: https://www.dynatrace.com/platform/live-debugger/
+  - type: Acquisition
+    url: https://www.dynatrace.com/news/press-release/dynatrace-to-acquire-rookout/
+  - type: Press
+    url: https://ir.dynatrace.com/news-events/press-releases/detail/303/dynatrace-to-acquire-rookout-to-deliver-code-debugging-in-production-environments
+  - type: GitHub
+    url: https://github.com/Rookout
+  - type: GitHubRepository
+    url: https://github.com/Rookout/tutorial-python
+  - type: GitHubRepository
+    url: https://github.com/Rookout/tutorial-java
+  - type: GitHubRepository
+    url: https://github.com/Rookout/tutorial-nodejs
+  - type: GitHubRepository
+    url: https://github.com/Rookout/tutorial-ruby
+  - type: GitHubRepository
+    url: https://github.com/Rookout/deployment-examples
+  - type: GitHubRepository
+    url: https://github.com/Rookout/docs
+  - type: GitHubRepository
+    url: https://github.com/Rookout/explorook
+  - type: GitHubRepository
+    url: https://github.com/Rookout/dynatrace-desktop-application
+  - type: GitHubRepository
+    url: https://github.com/Rookout/lambda-python-task-generator
+  - type: GitHubRepository
+    url: https://github.com/Rookout/opentelemetry-payment
+  - type: SignUp
+    url: https://www.dynatrace.com/signup/
+  - type: Pricing
+    url: https://www.dynatrace.com/pricing/
+  - type: TechCrunch
+    url: https://techcrunch.com/2023/07/31/dynatrace-acquires-cloud-native-debugging-platform-rookout/
+  - type: Crunchbase
+    url: https://www.crunchbase.com/acquisition/dynatrace-software-acquires-rookout--a59ae27b
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/rookout
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
