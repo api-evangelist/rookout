@@ -72,7 +72,7 @@ common:
     url: https://github.com/Rookout/lambda-python-task-generator
   - type: GitHubRepository
     url: https://github.com/Rookout/opentelemetry-payment
-  - type: SignUp
+  - type: Signup
     url: https://www.dynatrace.com/signup/
   - type: Pricing
     url: https://www.dynatrace.com/pricing/
