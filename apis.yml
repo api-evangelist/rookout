@@ -43,6 +43,17 @@ tags:
   - Observability
   - Developer Tools
   - Non-Breaking Breakpoints
+  - Cloud-Native
+  - Kubernetes
+  - Dynatrace
+  - APM
+tags_raw:
+  - Live Debugging
+  - Production Debugging
+  - Application Debugging
+  - Observability
+  - Developer Tools
+  - Non-Breaking Breakpoints
   - Cloud Native
   - Kubernetes
   - Dynatrace
