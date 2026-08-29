@@ -22,6 +22,18 @@ description: >-
   to maintain those agents, tutorials, and integration samples under
   Apache-2.0.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -64,6 +76,10 @@ modified: '2026-05-25'
 specificationVersion: '0.23'
 apis: []
 common:
+  - type: IssueTracker
+    url: https://github.com/Rookout/docs/issues
+  - type: Releases
+    url: https://github.com/Rookout/docs/releases
   - type: TrustCenter
     url: security/rookout-trust-center.yml
   - type: VulnerabilityDisclosure
